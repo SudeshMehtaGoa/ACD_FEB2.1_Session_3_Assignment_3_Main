@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Form with CSS</title>
+        
+        <!-- camelCase naming convention-->
+        <!-- Styling using external style sheet. -->
+        <link rel="stylesheet"href="style.css">
+
+    </head>
+    <body>
+        <div id="divUserDetails" class="divClassForSection">
+            <h3>Step 1 : Your details</h3>
+            <div id="divName" class="divClassForInput gradientEffectForDivInput">
+                <label id="lblName" class="inputClassForLabel">Name</label><input id="txtName" class="inputClassForInput" placeholder="First and last name"></input>
+                <br>
+            </div>
+            <div id="divEmail" class="divClassForInput gradientEffectForDivInput">
+                <label id="lblEmail" class="inputClassForLabel">Email</label><input id="txtEmail" class="inputClassForInput" placeholder="example@domain.com"></input>
+                <br>
+            </div>
+            <div id="divPhone" class="divClassForInput  gradientEffectForDivInput">
+                <label id="lblPhone" class="inputClassForLabel">Phone</label><input id="txtPhone" class="inputClassForInput" placeholder="e.g. +4475023454"></input>
+                <br>
+            </div>
+        </div>
+        <div id="deliveryAddress" class="divClassForSection">
+            <h3>Step 2 : Delivery Address</h3>
+            <div id="divAddress" class="divClassForInput gradientEffectForDivInput">
+                <label id="lblAddress" class="inputClassForLabel">Address</label><textarea id="txtAddress" class="inputClassForInput" rows="4"></textarea>
+                <br>
+            </div>
+            <div id="divPostCode" class="divClassForInput gradientEffectForDivInput">
+                <label id="lblPostCode" class="inputClassForLabel">Post Code</label><input id="txtPostCode" class="inputClassForInput"></input>
+                <br>
+            </div>
+            <div id="divCountry" class="divClassForInput gradientEffectForDivInput">
+                <label id="lblCountry" class="inputClassForLabel">Country</label><input id="txtCountry" class="inputClassForInput"></input>
+                <br>
+            </div>
+        </div>
+        <div id="cardDetails" class="divClassForSection">
+            <h3>Step 3 : Card Details</h3>
+            <div id="divPostCode" class="divClassForInput gradientEffectForDivInput">
+                <label id="lblCardType" class="inputClassForLabel">Card Type</label>
+                <br>
+                <input type="radio" name="inputCardType" value="Visa"> <img src="visaCard.png" width="20" height="10">VISA
+                <input type="radio" name="inputCardType" value="AmEx"> <img src="AmEx.png" width="20" height="20">AmEx
+                <input type="radio" name="inputCardType" value="Mastercard"> <img src="masterCard.png" width="20" height="15">Mastercard 
+                <br>
+            </div>
+            <div id="divPostCode" class="divClassForInput gradientEffectForDivInput">
+                <label id="lblCardNumber" class="inputClassForLabel">Card Number</label><input id="txtCardNumber" class="inputClassForInput"></input>
+                <br>
+            </div>
+            <div id="divPostCode" class="divClassForInput gradientEffectForDivInput">
+                <label id="lblSecurityCode" class="inputClassForLabel">Security Code</label><input id="txtSecurityCode" class="inputClassForInput"></input>
+                <br>
+            </div>
+            <div id="divPostCode" class="divClassForInput gradientEffectForDivInput">
+                <label id="lblNameOnCard" class="inputClassForLabel">Name on card</label><input id="txtNameOnCard" class="inputClassForInput" placeholder="exact name as on the card"></input>
+                <br>
+            </div>
+        </div>
+        <div id="divButton" class="divClassForSection">
+            <button class="divClassForButton">BUY IT!</button>
+        </div>
+    </body>
+</html>
+

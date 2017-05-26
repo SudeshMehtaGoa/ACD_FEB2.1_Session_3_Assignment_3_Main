@@ -1,0 +1,67 @@
+body
+{
+    background-image: url("backGround.jpg");
+    background-repeat: repeat;
+}
+h3
+{
+    color: purple;
+}
+/* Align full form centrally */
+.divClassForSection
+{ 
+    width:40%; 
+    margin-left:auto; 
+    margin-right:auto; 
+    padding:5px;
+}
+/* Indent input div such that optically it looks good, with round borders*/
+.divClassForInput
+{ 
+    width:90%; 
+    margin-left:auto; 
+    margin-right:auto; 
+    margin-top:5px; 
+    margin-bottom:5px;
+    border:0px;
+    border-radius: 12px;
+    padding:10px;
+}
+/* Labels and Textboxes with fixed width and aligned properly in one line */
+.inputClassForLabel
+{ 
+    display: inline-block;
+    width:200px; 
+    vertical-align:top;
+}
+.inputClassForInput
+{ 
+    display: inline-block;
+    width:400px; 
+    vertical-align:top;
+    font-size: 18;
+}
+
+/*gradient effect for input div */
+.gradientEffectForDivInput {
+    background: -webkit-linear-gradient(to right bottom, rgba(255,0,0,0), rgba(255,0,0,1)); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(to right bottom, rgba(255,0,0,0), rgba(255,0,0,1)); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(to right bottom, rgba(255,0,0,0), rgba(255,0,0,1)); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right bottom, rgba(102, 204, 255,0), rgba(102, 204, 255,1)); /* Standard syntax (must be last) */
+}
+
+/* Black button aligned centrally with round borders */
+.divClassForButton
+{ 
+    width:15%; 
+    margin-left:40%; 
+    margin-right:auto; 
+    margin-top:5px; 
+    margin-bottom:5px;
+    border:0px;
+    border-radius: 12px;
+    padding:10px;
+    color:white;
+    background-color:black;
+    font-weight: bold;
+}
